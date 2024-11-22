@@ -1,0 +1,129 @@
+body {
+    font-family:'Times New Roman', Times, serif;/*Cambia la fuente dela página*/
+    margin: 2px;/*Margen de la página*/
+    background-color: #331515;/*Color de fondo de el encabezado*/
+}
+
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+nav li :hover{
+    background-color:#ec2c2c70 ; /* Cambia el color de fondo cuando el mouse está sobre el enlace */
+}
+.menu a:hover {
+    background-color: #744949be; /* Cambia el color de fondo cuando el mouse está sobre el enlace */
+}
+
+main {
+    padding: 20px;
+}
+
+.seccion1 {
+    text-align: center;
+}
+.seccion2 {
+    text-align: center;
+}
+.seccion3 {
+    text-align: center;
+}
+.seccion4 {
+    text-align: center;
+}
+.seccion5 {
+    text-align: center;
+}
+.uno {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    background-size: 30rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1U58QG897o7q1t11S9Gc1b2S_Y2u1w65k0w&s");
+    height: 200px;
+}
+.unos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-size: 40rem;
+    background-image: url("https://thumbs.dreamstime.com/z/plantilla-de-banner-venta-ropa-para-ni%C3%B1os-dise%C3%B1o-publicidad-descuento-tiendas-antecedentes-promoci%C3%B3n-los-peque%C3%B1os-anuncios-la-252306137.jpg");
+    height: 200px;
+}
+.unoss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-size: 25rem;
+    background-image: url("https://img.freepik.com/vector-gratis/banner-horizontal-geometrico-diseno-plano_23-2149968375.jpg");
+    height: 200px;
+}
+.unosss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-size: 20rem;
+    background-image: url("https://thumbs.dreamstime.com/z/evento-de-ventas-cartel-de-la-ropa-dise%C3%B1o-del-rosa-y-del-negro-92537898.jpg");
+    height: 200px;
+}
+.unossss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-size: 20rem;
+    background-image: url("https://img.freepik.com/vector-gratis/banners-rebajas-moda-fotografia_52683-9828.jpg?semt=ais_hybrid");
+    height: 200px;
+}
+.unosssss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-size: 25rem;
+    background-image: url("https://edit.org/img/blog/jqn-moda-eventos-descuentos-fotos-chica-vestido-plantilla-diseno-cartel-editable.webp");
+    height: 200px;
+}
+@media (max-width: 768px) {
+    .columnas {
+        flex-direction: column; /* Cambia a una columna en pantallas más pequeñas */
+    }
+
+    .columna {
+        margin: 10px 0; /* Espacio vertical en pantallas pequeñas */
+    }
+    .seccion1 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .seccion2 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .seccion3 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .seccion4 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .seccion5 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .uno, .unos, .unoss, .unosss, .unossss, .unosssss {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    
+}

@@ -1,0 +1,146 @@
+body {
+    font-family:'Times New Roman', Times, serif;/*El tipo de la letra*/
+}
+
+header {
+    background-color: #962b63;/*Color de fondo de el encabezado*/
+    color: white;/*Color de la fuente*/
+    padding: 10px; /*Crea el espacio alrededor del contenido*/
+    text-align: center; /*Alineación del texto*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px; 
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.seccion1 {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/178/945/small/rose-gold-brushed-metal-texture.jpg");
+}
+
+.primero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.segundo {
+    flex: 1;/* Cada columna tomará el mismo espacio */
+    margin-top: 50px;/* Espacio entre columnas */
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid #a1c2ca79;
+    box-shadow: 0 2px 5px rgb(164, 59, 110);
+}
+
+.seccion2 {
+    text-align: center;
+    background-image: url("https://png.pngtree.com/background/20220725/original/pngtree-abstract-pink-picture-image_1775438.jpg");
+}
+.ab {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.cd {
+    flex: 1;/* Cada columna tomará el mismo espacio */
+    margin-top: 30px;/* Espacio entre columnas */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #a1c2ca79;
+    box-shadow: 0 2px 5px rgb(164, 59, 110);
+    text-align: center;
+    text-align: justify;
+    color: rgb(116, 15, 85);
+    line-height: 1.3;/*Interlineado*/
+}
+.ef {
+    width: 200px;
+    height: 220px;
+    margin-left: 90px;
+}
+.gh {
+    padding: 15px;
+    border: 1px solid #a1c2ca79;
+    box-shadow: 0 2px 5px rgb(164, 59, 110);
+    align-items: center;
+    flex: 1;/* Cada columna tomará el mismo espacio */
+    background-color: black;
+    color: darkgray;
+    margin: 12px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.columna {
+    flex: 1;/* Cada columna tomará el mismo espacio */
+    margin: 0 10px;/* Espacio entre columnas */
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .columnas {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .columna {
+        margin: 10px;/* Espacio vertical en pantallas pequeñas */
+    }
+    .seccion1 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .primero {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .segundo {
+        margin: 10px;/* Espacio vertical en pantallas pequeñas */
+    }
+    .seccion2 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .ab {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .cd {
+        flex-direction: column;
+    }
+}
+
+h3 {
+    text-align: center;
+}
+div h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #962b63;
+}

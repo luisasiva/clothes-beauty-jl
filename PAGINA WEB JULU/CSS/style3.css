@@ -1,0 +1,135 @@
+body {
+    font-family:'Times New Roman', Times, serif;/*Cambia la fuente dela página*/
+    margin: 2px;/*Margen de la página*/
+    background-color: #000000;/*Color de fondo de el encabezado*/
+}
+
+
+header {
+    background-color: #962752;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none;
+}
+nav li :hover{
+    background-color:#ec2c2c70 ; /* Cambia el color de fondo cuando el mouse está sobre el enlace */
+}
+.menu a:hover {
+    background-color: #744949be; /* Cambia el color de fondo cuando el mouse está sobre el enlace */
+}
+
+main {
+    padding: 20px;
+}
+
+.seccion1 {
+    text-align: center;
+}
+.uno {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+.dos {
+    flex: 1; /* Cada columna tomará el mismo espacio */
+    margin: 30px; /* Espacio entre columnas */
+    padding: 15px;
+    border: 2px solid #ffffff79;
+    box-shadow: 0 3px 5px rgb(156, 56, 73);
+}
+.Luna {
+    height: 130px;
+    width: 190px;
+    margin: 2px;
+ }
+ .Luna1 {
+    height: 135px;
+    width: 290px;
+    margin: 1px;
+ }
+.tres {
+    flex: 4; /* Cada columna tomará el mismo espacio */
+    margin: 3px; /* Espacio entre columnas */
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 3px 5px rgb(156, 56, 73);
+    background-color: rgb(72, 177, 159);
+}
+.cuatro {
+    flex: 4; /* Cada columna tomará el mismo espacio */
+    margin: 3px; /* Espacio entre columnas */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 3px 5px rgb(156, 56, 73);
+    background-color: rgb(255, 127, 127);
+}
+.cinco{
+    flex: 4; /* Cada columna tomará el mismo espacio */
+    margin: 3px; /* Espacio entre columnas */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 3px 5px rgb(156, 56, 73);
+    background-color: rgb(155, 127, 255);
+}
+@media (max-width: 768px) {
+    .columnas {
+        flex-direction: column; /* Cambia a una columna en pantallas más pequeñas */
+    }
+
+    .columna {
+        margin: 10px 0; /* Espacio vertical en pantallas pequeñas */
+    }
+    .seccion1 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .uno {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .dos {
+        margin: 5px;/* Espacio vertical en pantallas pequeñas */
+    }
+    .seccion2 {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .unos {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+    }
+    .form {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+        margin: 20px;/* Espacio vertical en pantallas pequeñas */
+    }
+    .label {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+        margin: 5px;/* Espacio vertical en pantallas pequeñas */
+    }
+    .imput {
+        flex-direction: column;/* Cambia a una columna en pantallas más pequeñas */
+        margin: 5px;/* Espacio vertical en pantallas pequeñas */
+    }
+    
+}
+.seccion2 {
+    text-align: center;
+    background-color: aquamarine;
+    color: #000000;
+}
+.unos {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
